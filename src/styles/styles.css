@@ -1,0 +1,9 @@
+/* src/styles.css */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+/* In your styles.css file */
+.button-common {
+    @apply rounded-lg px-6 py-2 bg-blue-500 hover:bg-blue-700 text-white cursor-pointer transition-all;
+  }
+  
